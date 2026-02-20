@@ -1,7 +1,7 @@
 [app]
-title = Hira Nexus
-package.name = hiranexus
-package.domain = org.hiranexus
+package.name = gemtrack
+package.domain = org.gemtrack
+[app]
 source.dir = .
 source.include_exts = py,ttf,db
 version = 0.1
