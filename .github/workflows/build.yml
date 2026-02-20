@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2uses:
 
     - name: Build with Buildozer
       uses: docker://kivy/buildozer
@@ -17,7 +17,7 @@ jobs:
         args: buildozer android debug
 
     - name: Upload APK
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: apk
         path: bin/*.apk
